@@ -1,0 +1,22 @@
+{
+  "name": "@infotechnohelp/cakephp-languages-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infotechnohelp/cakephp-languages-client.git"
+  },
+  "author": "Infotechnohelp OÜ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/infotechnohelp/cakephp-languages-client/issues"
+  },
+  "homepage": "https://github.com/infotechnohelp/cakephp-languages-client#readme",
+  "dependencies": {
+    "@infotechnohelp/api-client": "^1.0.1"
+  }
+}
