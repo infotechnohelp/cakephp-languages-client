@@ -17,15 +17,11 @@ Locale.prototype.getPhrasesFromApi = function (keys, callback) {
 
     var $this = this;
 
-    api.replaceApiRoot('languages/api/');
-
     api.postJson("phrases", {'keys': keys}, function (response) {
         $this.phrases = response.data;
 
         callback();
-    });
-
-    api.replaceApiRoot('api/');
+    }, function(){}, 'languages/api/');
 };
 
 Locale.prototype.translate = function (key) {
